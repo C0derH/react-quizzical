@@ -30,7 +30,7 @@ function App() {
               return {
                 id: nanoid(),
                 question: decode(item.question),//Decoding some of the html entities
-                correctAnswer: item.correct_answer,
+                correctAnswer: decode(item.correct_answer),
                 answers: getAnswersObjArray([
                   item.correct_answer,
                   ...item.incorrect_answers
