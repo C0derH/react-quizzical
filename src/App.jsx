@@ -24,7 +24,7 @@ function App() {
       fetch('https://opentdb.com/api.php?amount=5')
         .then((res) => res.json())
         .then((data) => {
-          // Creating new question objects with data coming from API
+          // Creating new question objects with data coming from API and setting the state with it.
           setQuestions(
             data.results.map((item) => {
               return {
