@@ -14,5 +14,5 @@ This is a quiz application built with React. It fetches quiz questions from an A
 
 ## About Scrimba
 
--Scrimba provided me the figma design
--This project is part of scrimba front-end path course.
+- Scrimba provided me the figma design
+- This project is part of scrimba front-end path course.
