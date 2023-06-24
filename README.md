@@ -5,7 +5,7 @@ This is a quiz application built with React. It fetches quiz questions from an A
 ## Features
 
 - Fetches quiz questions from an API
-- Decodes HTML entities in questions
+- Decodes HTML entities in questions and answers
 - Shuffles answer options for each question
 - Allows users to select their answers
 - Calculates the score at the end of the quiz

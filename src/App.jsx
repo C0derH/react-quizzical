@@ -59,7 +59,7 @@ function App() {
   function getAnswersObjArray(answers) {
     const answersObjArray = answers.map((answer) => ({
       id: nanoid(),
-      value: answer
+      value: decode(answer)
     }))
     return arrayShuffle(answersObjArray)
   }
